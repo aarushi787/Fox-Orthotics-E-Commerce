@@ -1,0 +1,27 @@
+{
+  "name": "fox-orthotics-e-commerce",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "import-images": "node scripts/import-sample-images.js",
+    "build": "vite build",
+    "preview": "vite preview",
+    "generate-sitemap": "node scripts/generate-sitemap.cjs",
+    "generate-robots": "node scripts/generate-robots.cjs",
+    "generate-all": "npm run generate-sitemap && npm run generate-robots"
+  },
+  "dependencies": {
+    "@google/genai": "^1.29.1",
+    "groq-sdk": "^0.36.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

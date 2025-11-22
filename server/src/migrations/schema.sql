@@ -1,0 +1,2 @@
+-- Original MySQL schema removed: project now uses Firestore.
+-- This file is retained only for historical reference and is no longer applied.

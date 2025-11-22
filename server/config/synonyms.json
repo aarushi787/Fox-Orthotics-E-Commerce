@@ -1,0 +1,7 @@
+{
+  "laptop": ["laptop", "notebook", "ultrabook", "chromebook"],
+  "phone": ["phone", "smartphone", "mobile"],
+  "insole": ["insole", "insert"],
+  "back": ["back", "back pain", "lumbar", "lumbar support", "lumbar belt", "back support", "back brace", "lower back", "sciatica"],
+  "pain": ["pain", "ache", "discomfort"]
+}
